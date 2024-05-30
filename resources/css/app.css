@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+    /*DEFINIMOS ESTILOS GLOBALES PARA EL COMPONENTE BASE DE ELEMENTOS HTML*/
+    body{
+        @apply font-roboto;
+    }
+}
